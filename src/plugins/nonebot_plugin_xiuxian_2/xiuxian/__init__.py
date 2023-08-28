@@ -25,11 +25,6 @@ except Exception as e:
     logger.info(f"缺少超级用户配置文件，{e}!")
     NICKNAME = 'bot'
 
-try:
-    download_xiuxian_data()
-except Exception as e:
-    logger.info(f"下载配置文件失败，修仙插件无法加载，{e}!")
-    raise ImportError
 
 put_bot = XiuConfig().put_bot
 shield_group = XiuConfig().shield_group

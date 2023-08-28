@@ -4,7 +4,8 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 data/
-
+/.env.prod
+/.env
 # Other files and folders
 .settings/
 
