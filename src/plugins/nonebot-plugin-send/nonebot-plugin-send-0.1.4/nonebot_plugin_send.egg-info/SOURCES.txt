@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nonebot_plugin_send/__init__.py
+nonebot_plugin_send/notice.py
+nonebot_plugin_send/send.py
+nonebot_plugin_send.egg-info/PKG-INFO
+nonebot_plugin_send.egg-info/SOURCES.txt
+nonebot_plugin_send.egg-info/dependency_links.txt
+nonebot_plugin_send.egg-info/requires.txt
+nonebot_plugin_send.egg-info/top_level.txt
+nonebot_plugin_send/utils/__init__.py

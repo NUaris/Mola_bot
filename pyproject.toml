@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "MoLaMoMoLa"
+version = "1.0.0"
+description = "#ff14"
+authors = ['Nuaris','QQ 1830873642']
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7.3"
+nonebot2 = "^2.0.0-beta.1"
+
+[tool.poetry.dev-dependencies]
+nb-cli = "^0.6.0"
+
+[tool.nonebot]
+plugins = [ "nonebot_plugin_antiinsult", "nonebot_plugin_xingzuo" ]
+plugin_dirs = ["src/plugins"]
+adapters = [{name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11"}]
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
